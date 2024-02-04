@@ -1,0 +1,129 @@
+
+.productIMG{
+
+    width: 100%;
+    height: 33.8vw;
+    box-shadow: 0px 5px 5px #abaaaa78;
+
+}
+
+.productname{
+
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    font-weight: bolder;
+
+}
+
+.pricingTbl{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    
+    justify-content: space-around;
+    width: 250px;
+    height: 400px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); 
+    padding: 20px;
+    transition: opacity 0.5s; 
+    opacity: 1;
+
+}
+
+.card:hover {
+
+    opacity: 1 !important;
+}
+
+.pricingTbl:hover .card {
+
+    opacity: 0.6;
+}
+
+
+.center{
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.small{font-size: large;}
+
+.silver {
+    background: linear-gradient(to bottom, #c0c0c0, #8c8c8c);
+}
+
+.gold {
+    background: linear-gradient(to bottom, #ffd700, #d4af37);
+}
+
+.diamond {
+    background: linear-gradient(to bottom, #b9f2ff, #87ceeb);
+}
+
+.order-button {
+    background: white;
+    color: #7400B8;
+    border: 2px solid #7400B8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.order-button:hover {
+    background: #7400B8;
+    color: white;
+}
+
+.detiles{width: 90vw;margin: 0px auto;}
+.dtlsLB{font-weight: bold;font-family: sans-serif;margin: 5px 0px;}
+.descText{overflow-x: auto;white-space: pre-wrap;word-wrap: break-word;font-family: sans-serif;padding: 10px;}
+
+.costomSection{width: 90vw;background-color: #b9f2ff8f;margin: 0px auto;margin-top:40px;border-radius: 9px;font-size: 30px;font-family: sans-serif;text-align: center;padding: 18px;}
+
+.serviceproductoption{display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;align-items: center;width: 70vw;margin: 0px auto;}
+
+.inline{display:block;}
+.formcl{margin: 38px 4vw; padding:28px;border: 1px solid #8f8f8f4a;background-color:#d0cdd517;border-radius:9px;font-family: sans-serif;font-size: 15px;}
+.left-right-margin{margin: 0px 3vw;}
+.fileAndReqDsc{margin-top: 50px;}
+.formcl label{    font-size: 20px;font-family: sans-serif;}
+.formcl input,select,textarea{font-size: large;margin: 10px 0px;}
+textarea{width: 60vw;margin: 10px 1vw;border-radius: 6px;}
+.downmargin{margin-bottom: 30px;}
+.personal{width: 70vw;margin: 5px auto;}
+.personal input{width: 40vw;margin-top: 24px;font-size:larger;}
+.productIDcl{display: none;}
